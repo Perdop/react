@@ -3,7 +3,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://blogpessoal-ym1n.onrender.com'
+    baseURL: import.meta.env.VITE_API_URL
 })
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
